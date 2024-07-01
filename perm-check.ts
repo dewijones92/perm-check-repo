@@ -404,7 +404,7 @@ const routes: Routes = [
     path: 'manager',
     component: ManagerDashboardComponent,
     canActivate: [RoleGuard],
-    data: { roles: [Role.MANAGER, Role.ADMIN_ADVANCED] }
+    data: { roles: [Role.AUDITOR] }
   },
   {
     path: 'auditor',
